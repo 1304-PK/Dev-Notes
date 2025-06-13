@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Oswald';
+}
+
+#heading{
+    background-color: lightblue;
+    text-align: center;
+    color: white;
+}
+
+#heading h1{
+    font-size: 5rem;
+}
+
+#heading p{
+    font-size: 2rem;
+    margin-top: 5vmin;
+}
+
+
+#languages{
+    background-color: lightpink;
+    display: flex;
+    gap: 10vmin;
+}
+
+.lang-card{
+    background-color: aquamarine;
+    padding: 3vmin 3vmin 2vmin 3vmin;
+    min-width: 33vmin;
+    border-radius: 10px;
+}
+
+.lang-heading{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 2vmin;
+}
+
+.lang-logo{
+    height: 8vmin;
+}
+
+.lang-description{
+    font-size: 1.5rem;
+    margin-top: 3vmin;
+}
+
+.lang-button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1vmin 1.5vmin;
+    margin-top: 5vmin;
+    border-radius: 5px;
+}
